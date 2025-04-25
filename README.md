@@ -1,10 +1,13 @@
 # real-time-entry-exit-person-counting
 
 Real-Time Entry/Exit Person Counting System
+
 Project Overview:
+
 This project demonstrates a real-time person counting system that accurately tracks the entry and exit of individuals through a camera feed. The system is designed to be highly efficient and scalable for use in various environments, such as smart buildings, event halls, retail spaces, and security monitoring systems. By leveraging object detection and motion tracking, it provides insights into people flow, enabling improved security and operational efficiency.
 
 Key Features:
+
 Real-time Detection: Uses the YOLO (You Only Look Once) model to detect people in real-time from video feeds.
 
 Entry/Exit Tracking: Monitors the movement of individuals in and out of a predefined area or zone.
@@ -14,6 +17,7 @@ Motion Tracking: Detects and tracks movement to ensure accurate counting and avo
 Scalable Design: The system is designed to work efficiently across multiple cameras or locations.
 
 Technologies Used:
+
 YOLO (Ultralytics): Object detection framework used to detect people in the camera feed.
 
 OpenCV: For video processing, motion tracking, and drawing bounding boxes around detected individuals.
